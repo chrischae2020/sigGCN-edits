@@ -1,4 +1,9 @@
-# sigGCN
+# sigGCN Edits
+Note: ALL ORIGINAL CODE BELONGS TO NAVILAB
+- Fixed bug where ValueError was thrown when checking prescence of shuffle_index.txt
+- Updated my_sparse_mm function to use recommended pytorch implementation with static methods
+- Implemented AUCROC scores for multilabel classification for ZhengSorted and BaronHuman datasets (found in /data/ directory)
+- Now able to save AUCROC curves to png file using @savePlot=1 (default is 0)
 
 ## 1. Generate the gene adjacency network
 

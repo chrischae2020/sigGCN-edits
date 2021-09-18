@@ -5,6 +5,8 @@ Note: ALL ORIGINAL CODE BELONGS TO NAVILAB
 - Implemented AUCROC scores for multilabel classification for ZhengSorted and BaronHuman datasets (found in /data/ directory)
 - Now able to save AUCROC curves to png file using @savePlot=1 (default is 0)
 
+See train_model.ipynb for how model is run
+
 ## 1. Generate the gene adjacency network
 
 If the gene-gene network is not available, use the getADJ.py to generate the sparse gene adjacency network. 
